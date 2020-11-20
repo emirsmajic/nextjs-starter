@@ -2,12 +2,9 @@
 
 Features
 
-- Created folders: lib, styles, components, utils
-- Custom `_app.js` file with ChakraProvider including CSS reset and custom theme
-- Custom `_document.js` file with link for Inter font family
-- `jsconfig.json` file for absolute imports
+- Custom `_app.js` file, tailwindcss dark mode combined with next-themes package for persistent theme (even with SSR)
 
 Dependencies
 
-- Chakra UI v1.0
+- TailwindCSS v2.0.1
 - React Hook Form

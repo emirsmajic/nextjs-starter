@@ -1,10 +1,10 @@
-import { ChakraProvider } from "@chakra-ui/core"
-import customTheme from "../styles/theme"
+import { ThemeProvider } from "next-themes"
+import "../styles/main.css"
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider resetCSS theme={customTheme}>
+    <ThemeProvider attribute="class">
       <Component {...pageProps} />
-    </ChakraProvider>
+    </ThemeProvider>
   )
 }
